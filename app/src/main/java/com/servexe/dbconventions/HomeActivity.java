@@ -106,7 +106,4 @@ public class HomeActivity extends AppCompatActivity implements LoaderManager.Loa
     public void onLoaderReset(Loader<Cursor> loader) {
         simpleCursorAdapter.swapCursor(null);
     }
-
-
-
 }
